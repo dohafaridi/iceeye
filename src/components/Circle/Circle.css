@@ -1,0 +1,7 @@
+.Circle {
+  cursor: pointer;
+  border-radius: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 0, 0, 0.6);
+  transition: all ease-in-out 0.5s;
+}

@@ -1,0 +1,13 @@
+.User {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  width: 100%;
+}
+
+.User__title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}

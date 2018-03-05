@@ -1,0 +1,28 @@
+.Header {
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Header__logo img {
+  max-width: 110px;
+}
+
+@media (max-width: 480px) {
+  .Header {
+    height: auto;
+    padding: 20px;
+    text-align: center
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 90px;
+  }
+
+  .Header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
